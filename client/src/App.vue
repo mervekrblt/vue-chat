@@ -1,13 +1,14 @@
 <template>
+<chat-body></chat-body>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChatBody from './components/ChatBody.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChatBody
   }
 }
 </script>
