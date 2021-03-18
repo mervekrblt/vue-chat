@@ -25,8 +25,8 @@
 
         <!--Display Messages-->
         <div class="messages" v-for="message in messages" :key="message.id">
-            <h4>{{ message.user.toUpperCase() }} :</h4> 
-            <h5>{{ message.message }}</h5> 
+            <h3>{{ message.user.toUpperCase() }}:</h3> 
+            <h4>{{ message.message }}</h4> 
         </div>
     </div>
 
@@ -78,7 +78,9 @@ export default {
 <style scoped>
 
 .messages {
-    border: 2px solid red;
     display: flex;
+}
+h3 {
+    margin-right: 2vh;
 }
 </style>
